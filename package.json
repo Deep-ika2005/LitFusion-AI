@@ -1,0 +1,38 @@
+{
+  "name": "litfusion-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "scopus:registry": "node scripts/build-scopus-registry.mjs",
+    "quartile:registry": "node scripts/build-quartile-registry.mjs",
+    "test:filters": "node scripts/test-paper-filters.mjs",
+    "test:ranking": "node scripts/test-hybrid-ranking.mjs",
+    "test:quartile-registry": "node scripts/test-quartile-registry.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.116.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.43.0",
+    "next": "16.3.4",
+    "next-auth": "^5.0.0-beta.32",
+    "openai": "^7.10.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "swr": "^2.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "source": "Scopus-derived source list (e.g. SCImago Journal & Country Rank export)",
+    "generatedAt": null,
+    "entryCount": 0,
+    "instructions": "Run: npm run scopus:registry -- <path-to-csv-export.csv>. Entries map an ISSN/ISSN-L to a source that is actually listed in Scopus. An empty file means no paper can be marked as Scopus Indexed."
+  },
+  "sources": {}
+}
